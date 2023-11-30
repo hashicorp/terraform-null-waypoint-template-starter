@@ -8,39 +8,31 @@ variable "waypoint_application" {
 variable "string_variable" {
   type        = string
   description = "An optional string variable."
-  default     = "string"
 }
 
 variable "number_variable" {
   type        = number
   description = "An optional number variable."
-  default     = "number"
 }
 
 variable "bool_variable" {
   type        = bool
   description = "An optional boolean variable."
-  default     = "bool"
 }
 
 variable "list_string_variable" {
   type        = list(string)
   description = "An optional list of string variable."
-  default     = ["list", "of", "string"]
 }
 
 variable "map_string_variable" {
   type        = map(string)
   description = "An optional map of string variable."
-  default = {
-    "map" = "string"
-  }
 }
 
 variable "set_string_variable" {
   type        = set(string)
   description = "An optional set of string variable."
-  default     = ["set", "of", "string"]
 }
 
 variable "object_variable" {
@@ -55,9 +47,4 @@ An optional object variable, with three arguments. The arguments include:
 2. An optional number.
 3. An optional bool, which is true by default.
 EOF
-  default = {
-    x = "value"
-    y = 1
-    z = true
-  }
 }
