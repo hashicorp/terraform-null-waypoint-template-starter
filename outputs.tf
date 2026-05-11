@@ -1,4 +1,4 @@
-# Copyright IBM Corp. 2023, 2024
+# Copyright IBM Corp. 2023, 2026
 
 output "waypoint_application" {
   value       = var.waypoint_application
