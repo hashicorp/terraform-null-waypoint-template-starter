@@ -1,3 +1,3 @@
-# Copyright IBM Corp. 2023, 2024
+# Copyright IBM Corp. 2023, 2026
 
 resource "null_resource" "trivial_resource" {}
